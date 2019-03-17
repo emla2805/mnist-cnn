@@ -17,7 +17,7 @@ if __name__ == "__main__":
         help="Directory where model summaries and checkpoints are stored",
     )
     parser.add_argument(
-        "--learning-rate", default=0.003, type=float, help="The learning rate"
+        "--learning-rate", default=0.001, type=float, help="The learning rate"
     )
     parser.add_argument(
         "--dropout-rate", default=0.15, type=float, help="The dropout rate"
